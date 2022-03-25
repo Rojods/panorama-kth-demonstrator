@@ -21,7 +21,7 @@ Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH d
 ## Solve the input system
 
     java -jar idesyde.jar \
-     -o solved.forsyde.xmi
+     -o solved.forsyde.xmi \
      input_system.forsyde.xmi
 
 ## Convert the solution back to amalthea
