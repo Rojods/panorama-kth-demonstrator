@@ -14,7 +14,7 @@ Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH d
 
     java -jar conversyde.jar \
       -o input_system.forsyde.xmi \
-      flight-information-system.amxmi \
+      flight-information-system-easier.amxmi \
       radar-system-easier.amxmi \
       utilizationBounds.forsyde.xmi
 
