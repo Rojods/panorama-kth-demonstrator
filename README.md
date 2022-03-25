@@ -4,7 +4,7 @@ Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH d
 
 ## Make the system without a solution 
 
-    java -jar conversyde-jar \
+    java -jar conversyde.jar \
       -o input_system.forsyde.xmi \
       flight-information-system.amxmi \
       radar-system-easier.amxmi \
@@ -12,7 +12,7 @@ Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH d
 
 ## Make the system with solutions 
 
-    java -jar conversyde-jar \
+    java -jar conversyde.jar \
       -o input_system.forsyde.xmi \
       flight-information-system.amxmi \
       radar-system-easier.amxmi \
@@ -20,13 +20,13 @@ Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH d
 
 ## Solve the input system
 
-   java -jar idesyde.jar \
-    -o solved.forsyde.xmi
-    input_system.forsyde.xmi
+    java -jar idesyde.jar \
+     -o solved.forsyde.xmi
+     input_system.forsyde.xmi
 
 ## Convert the solution back to amalthea
 
-    java -jar conversyde-jar \
+    java -jar conversyde.jar \
       -o amalthea_solved.amxmi \
       solved.forsyde.xmi
 
