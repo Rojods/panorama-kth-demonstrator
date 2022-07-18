@@ -1,3 +1,7 @@
+# MOVED!
+
+This repository has been moved to [forsyde/panorama-kth-demonstrator](forsyde/panorama-kth-demonstrator). This repo is thus archived, and will be removed in the future.
+
 # panorama-kth-demonstrator
 
 Repository with necessary tools for reproducing the ITEA3 PANORAMA project KTH demonstrator.
